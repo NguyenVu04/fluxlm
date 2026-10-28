@@ -1,0 +1,68 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# CUDA build output
+*.ptx
+*.cubin
+*.fatbin
+
+# Python (uv scaffold, test and benchmark scripts)
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Model weights
+/models/
+*.safetensors
+*.gguf
+
+# Profiling and benchmark output
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+perf.data*
+flamegraph.svg
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# AI agents
+.claude/
+CLAUDE.local.md
+.codex/
+.cursor/
+.windsurf/
+.gemini/
+.continue/
+.roo/
+.aider*
+.specstory/
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+.fleet/
+.zed/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Added by cargo
+
+/target
